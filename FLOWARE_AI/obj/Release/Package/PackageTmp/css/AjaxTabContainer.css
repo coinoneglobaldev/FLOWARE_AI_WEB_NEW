@@ -1,0 +1,270 @@
+﻿
+/*:root {
+    --primary-color: rgb(2 99 165);
+}
+
+.ajax__tab_header {
+    background: #d8e6e9;
+}
+
+.ajax__tab_body .ajax__scroll_none {
+    background-color: var(--third-color) !important;
+}
+
+.ajax__tab_xp .ajax__tab_body {
+    background-color: transparent !important;
+}*/
+
+
+/*.ajax__tab_xp .ajax__tab_header .ajax__tab_active {
+    background-color: var(--primary-color) !important;
+}*/
+/*.ajax__tab_outer {
+    background: #d8e6e9;
+}*/
+
+/*.ajax__tab_xp .ajax__tab_header .ajax__tab_tab {
+    background-image: none !important;
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_outer {
+    background-image: none !important;
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_inner {
+    background-image: none !important;
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_active .ajax__tab_outer {*/
+    /*background-color: rgb(107 121 203) !important;*/
+    /*background-image: none !important;
+    border-color: #727272 #dfdfdf #fff;*/
+    /*border-top: 4px solid #2a3f54;*/
+    /*border-top-right-radius: 10px;
+    height: 30px !important;
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_outer {
+    background-image: none !important;
+    padding-top: 4px !important;
+}
+
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_active .ajax__tab_tab {
+    background-image: none !important;
+    color: white;*/
+    /*  margin-top: 5px;*/
+/*}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_active .ajax__tab_inner {
+    background-image: none !important
+}
+
+.ajax__tab_xp .ajax__tab_header {
+    background-image: none !important;
+    font-weight: bold !important;
+    border-bottom: 2px solid #2a3f54;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 0 !important;
+}
+
+.ajax__tab_default .ajax__tab {
+    display: block;
+    float: left;
+    height: 30px !important;
+    margin-top: -1px !important;
+}
+
+.ajax__tab_body {
+    border: none !important;
+}
+
+.ajax_tab a {
+    margin-top: 6px !important;
+}
+
+.report-popup-box {
+    position: absolute;
+    top: 500px;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    background-color: #fff;
+    opacity: 0.75;
+    z-index: 1000;
+}
+
+.load-process-wrapper {
+    position: absolute;
+    top: 40%;
+    width: 0%;
+    height: 0%;
+    z-index: 1000;
+}
+
+.load-process-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.ajaxcalendar_day,
+.ajaxcalendar_other,
+.ajaxcalendar_today,
+.ajaxcalendar_active {
+    display: table-cell !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    line-height: 10px !important;*/ /* match to your cell height */
+    /*padding: 0 !important;
+}*/
+/* Style border around the entire TabContainer */
+/*.ajax__tab_xp .ajax__tab_body,
+.ajax__tab_xp .ajax__tab_header {
+    border: 1px solid #e7edf3 !important;
+    border-radius: 8px;
+}*/
+
+/* Ensure the body and header share a single border (avoid double borders) */
+/*.ajax__tab_xp .ajax__tab_header {*/
+   /* border-bottom: none !important;
+    background: #d8e6e9;*/
+/*}*/
+
+/* Optional: add padding and shadow for a clean layout */
+/*.ajax__tab_xp {*/
+    /*border: 2px solid #2a3f54;*/
+    /*border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    overflow: hidden;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}*/
+
+
+
+
+:root {
+    --primary-color: rgb(2 99 165);
+}
+
+.ajax__tab_header {
+    background: #d8e6e9;
+}
+
+.ajax__tab_body .ajax__scroll_none {
+    background-color: var(--third-color) !important;
+}
+
+.ajax__tab_xp .ajax__tab_body {
+    background-color: transparent !important;
+}
+
+
+/*.ajax__tab_xp .ajax__tab_header .ajax__tab_active {
+    background-color: var(--primary-color) !important;
+}*/
+.ajax__tab_outer {
+    background: #d8e6e9;
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_tab {
+    background-image: none !important;
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_outer {
+    background-image: none !important;
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_inner {
+    background-image: none !important;
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_active .ajax__tab_outer {
+    background-color: var(--primary-color) !important;
+    background-image: none !important;
+    border-color: #727272 #dfdfdf #fff;
+    border-top: 4px solid #2a3f54;
+    border-top-right-radius: 10px;
+    height: 30px !important;
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_outer {
+    background-image: none !important;
+    padding-top: 4px !important;
+}
+
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_active .ajax__tab_tab {
+    background-image: none !important;
+    color: white;
+    /*  margin-top: 5px;*/
+}
+
+.ajax__tab_xp .ajax__tab_header .ajax__tab_active .ajax__tab_inner {
+    background-image: none !important
+}
+
+.ajax__tab_xp .ajax__tab_header {
+    background-image: none !important;
+    font-weight: bold !important;
+}
+
+.ajax__tab_default .ajax__tab {
+    display: block;
+    float: left;
+    height: 30px !important;
+    margin-top: -1px !important;
+}
+
+.ajax__tab_body {
+    border: none !important;
+}
+
+.ajax_tab a {
+    margin-top: 6px !important;
+}
+
+.report-popup-box {
+    position: absolute;
+    top: 500px;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    background-color: #fff;
+    opacity: 0.75;
+    z-index: 1000;
+}
+
+.load-process-wrapper {
+    position: absolute;
+    top: 40%;
+    width: 0%;
+    height: 0%;
+    z-index: 1000;
+}
+
+.load-process-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.ajaxcalendar_day,
+.ajaxcalendar_other,
+.ajaxcalendar_today,
+.ajaxcalendar_active {
+    display: table-cell !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    line-height: 10px !important; /* match to your cell height */
+    padding: 0 !important;
+}
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FLOWARE_AI", "FLOWARE_AI\FLOWARE_AI.csproj", "{8684D398-EB53-4695-B899-48B68D59FF24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8684D398-EB53-4695-B899-48B68D59FF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8684D398-EB53-4695-B899-48B68D59FF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8684D398-EB53-4695-B899-48B68D59FF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8684D398-EB53-4695-B899-48B68D59FF24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A18CC187-7291-43B9-8DEE-D9518B726CF2}
+	EndGlobalSection
+EndGlobal

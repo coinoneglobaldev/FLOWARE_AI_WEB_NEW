@@ -1,0 +1,43 @@
+﻿
+<%-- Label Controls --%>
+<asp:Label runat="server" class="GridLblCtrl" SkinId="LblGrdMaster"></asp:Label>
+<asp:Label runat="server" class="GridLblCtrl" SkinId="LblGrdMasterRight" style="text-align: Right"></asp:Label>
+
+
+<%-- GridView Controls --%>
+
+<asp:TextBox runat="server" CssClass="form-control"></asp:TextBox>
+<asp:TextBox runat="server" CssClass="form-control" style="text-align: right;" SkinID="TxtRight"></asp:TextBox>
+<asp:TextBox runat="server" CssClass="form-control" style="margin-left:-9px;" SkinID="TxtMleft"></asp:TextBox>
+
+<asp:DropDownList runat="server" SkinID="DdlNormal"  CssClass="form-control">
+</asp:DropDownList>
+
+<%-- GridView Controls --%>
+
+
+<asp:GridView  runat="server" CssClass="table table-bordered table-responsive-sm product-table" AutoGenerateColumns="False" AllowPaging="True" PageSize="25" GridLines="None" BorderWidth="0" ShowHeader="True"  HorizontalAlign="Left" SkinID="GrdVwMaster" >
+<HeaderStyle CssClass="product-table-header" />
+<RowStyle CssClass="product-table-row" />
+<AlternatingRowStyle CssClass="product-table-alt-row" />
+<SelectedRowStyle CssClass="product-table-selected" />
+<PagerStyle CssClass="pag_btns" />
+    
+</asp:GridView>
+
+<asp:GridView  runat="server" CssClass="table table-bordered table-responsive-sm " AutoGenerateColumns="False" AllowPaging="True" PageSize="25" GridLines="None" BorderWidth="0" ShowHeader="True"  HorizontalAlign="Left" SkinID="GrdVwMaster12" >
+<HeaderStyle CssClass="product-table-header" />
+<RowStyle CssClass="product-table-row" />
+<AlternatingRowStyle CssClass="product-table-alt-row" />
+<SelectedRowStyle CssClass="product-table-selected" />
+<PagerStyle CssClass="pag_btns" />
+    
+</asp:GridView>
+
+<asp:GridView runat="server" class="table table-bordered table-responsive-sm child-grid" AutoGenerateColumns="False" AllowPaging="False" BackColor="white" GridLines="None" HorizontalAlign="Left" SkinId="GrdVwMasterNoPageing">
+<HeaderStyle CssClass="product-table-header" />
+<RowStyle CssClass="product-table-row" />
+<AlternatingRowStyle CssClass="product-table-alt-row" />
+<SelectedRowStyle CssClass="product-table-selected" />
+<PagerStyle CssClass="pag_btns" />
+</asp:GridView>

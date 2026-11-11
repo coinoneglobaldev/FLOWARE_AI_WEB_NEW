@@ -1,0 +1,110 @@
+﻿/* =========================================================
+   FLOWARE MODERN TABS FOR AJAX TOOLKIT TABCONTAINER
+   ========================================================= */
+
+:root {
+    --floware-primary: #0263a5;
+    --floware-border: #e3e8ee;
+    --floware-bg: #f7fafc;
+}
+
+/* ----- HEADER AREA ----- */
+.floware-tabs .ajax__tab_header {
+    background: #d1dfe9;
+    border-bottom: 2px solid var(--floware-border);
+    padding: 0 10px;
+    height: 48px;
+    display: flex;
+    align-items: end;
+}
+
+/* Remove all XP garbage */
+.floware-tabs .ajax__tab_outer,
+.floware-tabs .ajax__tab_inner,
+.floware-tabs .ajax__tab_tab {
+    background-image: none !important;
+    border: none !important;
+    height: auto !important;
+}
+
+/* ----- EACH TAB ----- */
+.floware-tabs .ajax__tab_tab {
+    margin-right: 8px;
+}
+
+/* TAB TEXT */
+.floware-tabs .ajax__tab_inner {
+    /*padding: 12px 28px !important;*/
+    font-size: 15px;
+    font-weight: 600;
+    color: #5b6770;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    transition: all .25s ease;
+}
+
+    /* Hover */
+    .floware-tabs .ajax__tab_inner:hover {
+        background: #e8f2f9;
+        color: var(--floware-primary);
+    }
+
+/* ACTIVE TAB */
+.floware-tabs .ajax__tab_active .ajax__tab_inner {
+    background: var(--floware-primary) !important;
+    color: #fff !important;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
+}
+
+/* ----- BODY AREA ----- */
+.floware-tabs .ajax__tab_body {
+    border: 1px solid var(--floware-border);
+    border-top: none;
+    background: #fff;
+    padding: 22px;
+    border-radius: 0 8px 8px 8px;
+}
+
+/* Fix strange spacing Ajax adds */
+.floware-tabs .ajax__tab_panel {
+    padding: 0 !important;
+}
+
+/* Optional: make tabs slightly raised */
+.floware-tabs .ajax__tab_active {
+    position: relative;
+    top: 2px;
+}
+
+/* Responsive */
+@media(max-width:768px) {
+    .floware-tabs .ajax__tab_inner {
+        padding: 10px 14px !important;
+        font-size: 14px;
+    }
+}
+.ajax__tab_default .ajax__tab {
+    display: block !important;
+    float: left !important;
+    height: 50px !important;
+}
+
+
+/* ===== INACTIVE TAB STYLE ===== */
+.floware-tabs .ajax__tab_tab:not(.ajax__tab_active) .ajax__tab_inner {
+    background: #eef3f7;
+    color: red;
+    border: 1px solid #d9e2ec;
+    border-bottom: none;
+    opacity: 0.9;
+}
+
+    /* Hover effect for inactive tabs */
+    .floware-tabs .ajax__tab_tab:not(.ajax__tab_active) .ajax__tab_inner:hover {
+        background: #dfeaf4;
+        color: #0263a5;
+        opacity: 1;
+    }
+.ajax__tab_tab span {
+    font-size: 16px !important;
+}

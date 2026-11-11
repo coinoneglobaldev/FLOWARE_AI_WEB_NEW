@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPageEmpty.master.cs" Inherits="FLOWARE_AI.MasterPage.MasterPageEmpty" %>
+
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+     <link href="../StyleSheet/StyleSheetContentNew.css" rel="stylesheet" type="text/css"/>
+    <%--<link href="../StyleSheet/StyleTabContainer.css" rel="stylesheet" type="text/css"/>--%>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="../css/products.css" rel="stylesheet" />
+    <%--<link href="../css/AjaxTabContainer.css" rel="stylesheet" />--%>
+    <link href="../css/Customers.css" rel="stylesheet" />
+    <link href="../css/CommonStyles.css" rel="stylesheet" />
+    <link href="../css/dashboard.css" rel="stylesheet" />
+    <link href="../css/export.css" rel="stylesheet" />
+    <link href="../StyleSheet/AutobindStyle.css" rel="stylesheet" />
+    <link href="../css/forms.css" rel="stylesheet" />
+    <link href="../css/winbox.min.css" rel="stylesheet" />
+    <link href="../css/StyleColumnSplit.css" rel="stylesheet" />
+</head>
+<body class="nav-md" style="background: none;">
+
+    <form id="form1" runat="server">        
+    <div>
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>  
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+    <ContentTemplate>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    </ContentTemplate>
+    </asp:UpdatePanel>
+    </div>
+    <div>  
+    <asp:HiddenField ID="HdnFrmDate" runat="server" />  
+    <asp:HiddenField ID="HdnToDate" runat="server" /> 
+    <asp:HiddenField ID="HdnDate" runat="server" />
+    <asp:HiddenField ID="HdnTType" runat="server" />
+    <asp:HiddenField ID="HdnCurId" runat="server" />
+     <asp:HiddenField ID="HdnCurName" runat="server" />
+
+        <asp:HiddenField ID="HdnFID" runat="server" />
+
+    <asp:Label ID="LblWindowTitle" runat="server" Font-Bold="True" Font-Italic="False" Font-Names="Microsoft Sans Serif" Font-Size="Small" Style="position: static" Visible="False"></asp:Label>
+    <asp:UpdateProgress ID="UpdateProgress1" runat="server" AssociatedUpdatePanelID="UpdatePanel1"  DisplayAfter="0" DynamicLayout="true">
+    <ProgressTemplate>
+    <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+    <asp:Label ID="LblPrgBar" runat="server" Text="Label"></asp:Label>     
+    </ProgressTemplate>
+    </asp:UpdateProgress>
+    </div>
+
+        <script src="../JS/bootstrap.bundle.min.js"></script>
+        <script src="../JavaScript/WebServiceMethode.js"></script>
+        <script src="../JS/winbox.min.js"></script>
+        <script src="../JS/winboxes_horiz.js"></script>
+         <script type="text/javascript">        
+
+             function FnGetSelectedGeneralListControlValue(strCtrl, strId, strVal, strRemarks, strUomId, strUomName, strDestCtrls) {
+
+                 // strCtrl = ..._gridWrapper_0 OR ..._gridWrapper_3 etc.
+                 var base = strCtrl.replace(/_gridWrapper_\d+$/, "");   // ...ItemCode_0
+                 var m = base.match(/_(\d+)$/);                         // take last _N
+                 var row = m ? m[1] : "0";
+
+                 // now use that row index
+                 document.getElementById(base + "_TxtCaption_" + row).value = strVal;
+                 document.getElementById(base + "_TABLE1_" + row).style.display = "none";
+                 document.getElementById(base + "_HdnCount_" + row).value = "0";
+                 document.getElementById(base + "_HdnId_" + row).value = strId;
+                 var dest = strDestCtrls.split(",");
+                 if (dest[0]) document.getElementById(dest[0]).value = strId;
+                 if (dest[1]) document.getElementById(dest[1]).value = strRemarks;
+                 if (dest[2]) document.getElementById(dest[2]).value = strUomId;
+                 if (dest[3]) document.getElementById(dest[3]).value = strUomName;
+                 document.getElementById(base + "_TxtCaption_" + row).focus();
+                 return false;
+             }
+
+             function FnGetSelectedGeneralListControlValueCode(strCtrl, strId, strVal, strRemarks, strUomId, strUomName, strDestCtrls) {
+
+                 var base = strCtrl.replace(/_gridWrapper_\d+$/, "");
+                 var m = base.match(/_(\d+)$/);
+                 var row = m ? m[1] : "0";
+
+                 // here you want to show code in current control
+                 document.getElementById(base + "_TxtCaption_" + row).value = strRemarks;
+                 document.getElementById(base + "_TABLE1_" + row).style.display = "none";
+                 document.getElementById(base + "_HdnCount_" + row).value = "0";
+                 document.getElementById(base + "_HdnId_" + row).value = strId;
+
+                 var dest = strDestCtrls.split(",");
+                 if (dest[0]) document.getElementById(dest[0]).value = strId;
+                 if (dest[1]) document.getElementById(dest[1]).value = strVal;
+                 if (dest[2]) document.getElementById(dest[2]).value = strUomId;
+                 if (dest[3]) document.getElementById(dest[3]).value = strUomName;
+
+
+                 document.getElementById(base + "_TxtCaption_" + row).focus();
+                 return false;
+             }
+
+        
+
+
+
+
+         </script>
+</form>
+</body>
+</html>

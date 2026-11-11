@@ -1,0 +1,134 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6fa;
+    color: #333;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1800px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Page Header */
+.page-header {
+    margin-bottom: 2rem;
+}
+
+.page-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #444;
+}
+
+/* Dashboard Cards Layout */
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+/* Stat Cards */
+.stat-card {
+    background: white;
+    border-radius: 33px;
+    padding: 1rem 2rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    text-align: center;
+    border: 4px #f1e0e0 solid;
+}
+
+    /* Top border glow */
+    .stat-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 6px;
+        width: 100%;
+        background: linear-gradient(90deg, #667eea, #764ba2);
+    }
+
+    /* Hover */
+    .stat-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    }
+
+/* Icon */
+.stat-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.8rem; /* bigger icon */
+    color: white;
+    margin: 0 auto 1.5rem auto; /* center icon */
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+/* Icon Colors */
+.products .stat-icon {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.customers .stat-icon {
+    background: linear-gradient(135deg, #f093fb, #f5576c);
+}
+
+.orders .stat-icon {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+.expend .stat-icon {
+    background: linear-gradient(135deg, #764ba2, #d47573);
+}
+.mapend .stat-icon {
+    background: linear-gradient(135deg, #f24ffe, #00febf)
+}
+.expcomp .stat-icon {
+    background: linear-gradient(135deg, #84bae9, #22fe00);
+}
+
+/* Label */
+.stat-label {
+    font-size: 1.1rem;
+    font-weight: 700; /* bold */
+    color: #444;
+    margin-bottom: 0.5rem;
+}
+
+/* Value Text */
+.stat-value {
+    font-size: 3rem;
+    font-weight: 800; /* bold */
+    color: #222;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .stat-card {
+        padding: 2rem 1.5rem;
+    }
+
+    .stat-value {
+        font-size: 2rem;
+    }
+}

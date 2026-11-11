@@ -1,0 +1,642 @@
+﻿.redcolor {
+    background: #d65d5d;
+    color: white;
+}
+.redcolor1 {
+    background: #e64171;
+    color: white;
+}
+.ViewButton {
+    background: #648ACB;
+    color: white;
+}
+.blkbutton {
+    background: #a36722;
+    color: white;
+}
+
+
+
+.header {
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #0263a5;
+    color: white;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 3px;
+    border: solid 0px;
+}
+
+.headercell {
+    width: 300px;
+}
+
+.headerPer {
+    width: 100%;
+}
+
+.header150 {
+    width: 150px;
+}
+
+.header200 {
+    width: 200px;
+}
+
+.headercellRefNo {
+    width: 60px;
+}
+
+.headerItem {
+    width: 300px;
+}
+
+.headercellCode {
+    width: 60px;
+}
+
+.headercellDob {
+    width: 80px;
+}
+
+.headercellDigit {
+    width: 150px;
+}
+
+.headercellOther {
+    width: 20px;
+}
+/*================================================ ROW STYLE  =======================*/
+.rowcell {
+   /* width: 300px;*/
+    width: 100px;
+    color: #000 !important;
+}
+
+    .rowcell a {
+        color: #74788d !important;
+        font-weight:700;
+    }
+
+.rowcell1 {
+    /* width: 300px;*/
+    width: 100px;
+    color: #000 !important;
+}
+
+    .rowcell1 a {
+        color: #74788d !important;
+        font-weight: 700;
+    }
+
+.rowPer {
+    width: 100%;
+}
+
+.row150 {
+    width: 150px;
+}
+
+.row200 {
+    width: 200px;
+}
+
+.rowcellRefNo {
+    width: 60px;
+}
+
+.rowItem {
+    width: 300px;
+}
+
+.rowcellCode {
+    width: 60px;
+}
+
+.rowcellDob {
+    width: 80px;
+}
+
+.rowcellDigit {
+    width: 150px;
+    color: red;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: right;
+    text-indent: 5px;
+    font-weight: bold;
+}
+
+.rowcellOther {
+    width: 20px;
+}
+
+.rowstyle {
+    height: 20px;
+    background-color: white;
+    color: #666;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: left;
+    text-indent: 5px;
+    font-weight: bold;
+    border: solid 0px;
+    line-height: 15px;
+}
+
+.alternatingrowstyle {
+    height: 20px;
+    background-color: #F7F7F7;
+    color: #212020;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    /* text-indent: 5px; */
+    /* font-weight: bold; */
+    border: solid 0px;
+    text-transform: capitalize;
+    background: #f5f9fc !important
+}
+
+.alternatingrowstyle1 {
+    height: 20px;
+    background-color: #F7F7F7;
+    color: #212020;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: left;
+    /* text-indent: 5px; */
+    /* font-weight: bold; */
+    border: solid 0px;
+    text-transform: capitalize;
+}
+
+/*=========================================================  PAGER STYLE ==========================================*/
+.Grdpager {
+    /*float: left;*/
+    color: #fff !important;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 8pt;
+    font-weight: normal;
+    /*background: #117ac0;*/
+    background: #3b83b2;
+    padding: 5px 8px !important;
+    margin: 0 1px;
+    border-radius: 4px;
+}
+.GrdpagerActive {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 9pt;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #ffff;
+    background-color: #0263a5;
+    padding: 3px 8px !important;
+    border: 1px solid #bbb;
+}
+.GrdpagerInActive {
+    /*float: left;*/
+    font-weight: bold;
+    font-style: normal;
+    font-size: 9pt;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #666;
+    background-color: #F1F1F1;
+    padding: 3px 8px !important;
+    border: 1px solid #bbb;
+}
+
+/*A:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #000 !important;*/
+    /*padding: 4px 7px;
+    background: #fff;
+    border: 1px solid #bbb;*/
+/*}*/
+
+.CloseBtn {
+    /*background-color:#C00000;
+	border-color :Maroon;
+	border-bottom-width:2px;*/
+    height: 23px;
+    width: 20px;
+    font-size: small;
+    text-align: center;
+    vertical-align: middle;
+    cursor: hand;
+    /*color:White;*/
+    font-weight: bold;
+}
+/*========================= GRID STYLE SHEET ======================*/
+.SrlNocell {
+    height: 10px;
+    width: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 2px;
+    /*border:solid 1px;
+    border-color:Gray; */
+}
+
+.SrlNoRowcell {
+    color: #331763;
+    height: 20px;
+    width: 10px;
+    font-size: 13px;
+    text-align: center;
+    text-indent: 2px;
+    font-weight: bold;
+    border: solid 1px;
+    border-color: Gray;
+}
+
+.Selectcell {
+    height: 10px;
+    width: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 2px;
+    /*border:solid 1px; 
+    border-color:Gray;  */
+}
+
+.Selectrowcell {
+    height: 20px;
+    width: 50px;
+    font-size: 13px;
+    text-align: left;
+    text-indent: 2px;
+    font-weight: normal;
+    border: solid 1px;
+    border-color: Gray;
+}
+
+.Deletecell {
+    height: 10px;
+    width: 60px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 2px;
+    border: solid 1px;
+    border-color: Gray;
+}
+
+.Deleterowcell {
+    height: 20px;
+    width: 60px;
+    font-size: 13px;
+    text-align: left;
+    text-indent: 2px;
+    font-weight: normal;
+    border: solid 1px;
+    border-color: Gray;
+}
+
+.HdrItemcell {
+    height: 10px;
+    width: 275px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 2px;
+    border: solid 1px;
+    border-color: Gray;
+}
+
+.ItemRowCell {
+    height: 20px;
+    width: 275px;
+    font-size: 13px;
+    text-align: left;
+    text-indent: 2px;
+    font-weight: normal;
+    border: solid 1px;
+    border-color: Gray;
+}
+
+.HdrDigitcell {
+    height: 10px;
+    width: 75px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 2px;
+    border: solid 1px;
+    border-color: Gray;
+}
+
+.DigitRowCell {
+    height: 20px;
+    width: 75px;
+    font-size: 13px;
+    text-align: right;
+    text-indent: 2px;
+    font-weight: normal;
+    border: solid 1px;
+    border-color: Gray;
+}
+
+.HdrCodecell {
+    height: 10px;
+    width: 100px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 2px;
+    border: solid 1px;
+    border-color: Gray;
+}
+
+.CodeRowCell {
+    height: 20px;
+    width: 100px;
+    font-size: 13px;
+    text-align: left;
+    text-indent: 2px;
+    font-weight: normal;
+    border: solid 1px;
+    border-color: Gray;
+}
+
+.HdrUomcell {
+    height: 10px;
+    width: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 2px;
+    border: solid 1px;
+    border-color: Gray;
+}
+
+.UomRowCell {
+    height: 20px;
+    width: 50px;
+    font-size: 13px;
+    text-align: justify;
+    text-indent: 2px;
+    font-weight: normal;
+    border: solid 1px;
+    border-color: Gray;
+}
+
+.HdrTaxcell {
+    height: 10px;
+    width: 110px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 2px;
+    border: solid 1px;
+    border-color: Gray;
+}
+
+.TaxRowCell {
+    height: 20px;
+    width: 110px;
+    font-size: 13px;
+    text-align: left;
+    text-indent: 2px;
+    font-weight: normal;
+    border: solid 1px;
+    border-color: Gray;
+}
+
+.GrdheaderItem {
+    height: 10px;
+    width: 300px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 2px;
+    border: solid 1px;
+    border-color: Gray; /*#336666*/
+}
+
+.GrdrowItem {
+    height: 20px;
+    width: 300px;
+    font-size: 13px;
+    text-align: left;
+    text-indent: 2px;
+    font-weight: normal;
+    border: solid 1px;
+    border-color: Gray;
+}
+
+.Grdrowcell {
+    height: 20px;
+    width: 110px;
+    font-size: 13px;
+    text-align: left;
+    text-indent: 2px;
+    font-weight: normal;
+    border: solid 1px;
+    border-color: Gray;
+}
+/*-----------------------------------------------------------------*/
+.TblGridStyle {
+    border-width: 3px;
+    border-color: #336666;
+    border-style: Double;
+    padding: 4;
+}
+
+.Grdheader {
+    background-color: #336666;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    font-weight: normal;
+    color: white;
+    height: 15px;
+}
+
+.Grdrowstyle {
+    background-color: WhiteSmoke;
+    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+}
+
+.Grdalternatingrowstyle {
+    background-color: Gainsboro;
+    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    font-weight: normal;
+}
+
+/*.dropdown-srch {*/
+    /*width: 29px;
+    height: 34px;*/
+    /* background: #208c9b; */
+    /*border: 0;
+    margin: -17px 0 0 -32px;
+    position: absolute;
+    z-index: 1000;
+    text-align: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: #c4c9ca;*/
+
+
+    /*width: 29px;
+    height: 29px;*/
+    /* background: #208c9b; */
+    /*border: 0;
+    margin: -17px 0px 0px -29px;
+    position: absolute;
+    z-index: 1000;
+    text-align: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: #c4c9ca;
+    top: 17px;
+}*/
+
+    .dropdown-srch i {
+        line-height: 34px;
+        color: #222020;
+        font-size: 13px;
+    }
+
+
+
+/*====================== TABLE STYLE*/
+.TblGrdStyle {
+    display: none;
+    background-color: rgb(241, 241, 241);
+    border-width: 0px;
+    border-style: solid;
+    border-color: darkgray;
+    z-index: 1000000 !important;
+  overflow:scroll;
+}
+
+/**/
+.table-container-grid {
+    width:100% !important;
+    height:145px;
+    overflow-x: auto;
+    border: 1px solid #ddd;
+}
+
+.tables-grid {
+    position: absolute;
+    width: 100%;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+    .tables-grid thead {
+        background: #2f74a3;
+        color: #fff;
+    }
+
+.tables-grid td {
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+
+
+.general-container-grid {
+    max-height:200px !important;
+}
+
+
+.general-grid {
+    width: 388px;
+    border-collapse: collapse;
+}
+
+ .general-grid thead {
+        background: #2f74a3;
+        color: #fff;
+    }
+
+    .general-grid td {
+        font-family: sans-serif;
+        white-space: nowrap;
+        overflow: hidden;
+        /* padding: 10px; */
+        padding: 1px;
+        border: 1px solid #ddd;
+        text-align: left;
+        font-size: 13px;
+    }
+.general-grid tbody tr{
+    background:white;
+}
+
+    .general-grid tbody tr:hover {
+        background-color: #e7f1ff;
+    }
+
+.general-grid1 {
+    width: 388px;
+    border-collapse: collapse;
+}
+
+    .general-grid1 thead {
+        background: #2f74a3;
+        color: #fff;
+    }
+
+    .general-grid1 td {
+        white-space: nowrap;
+        overflow: hidden;
+        /*padding: 10px;*/
+        padding: 1px;
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+
+    .general-grid1 tbody tr {
+        background: white;
+    }
+
+        .general-grid1 tbody tr:hover {
+            background-color: #e7f1ff;
+        }
+
+.date-input-container {
+    position: relative;
+    width: 100%;
+}
+.datepicker-crm {
+    width: 100%;
+    padding-right: 30px; /* give space for the icon */
+    box-sizing: border-box;
+}
+
+.calendar-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #630f0a !important; /* bright red */
+    font-size: 18px !important; /* adjust size */
+    width: 18px !important; /* optional for layout */
+    height: 18px !important; /* optional for layout */
+    line-height: 1 !important;
+}

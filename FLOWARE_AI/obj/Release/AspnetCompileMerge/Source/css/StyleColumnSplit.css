@@ -1,0 +1,27 @@
+﻿/*------------------------------------------COLUMN 5-----------------------------------/*/
+#inputColumn_6 {
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr 2fr 2fr 2fr;
+    gap: 4px;
+    align-items: end;
+    width: 100.4%;
+    box-sizing: border-box;
+}
+
+#inputColumn_6 .input-cell {
+    display: flex;
+    flex-direction: column;
+}
+
+#inputColumn_6 .input-cellCtrlCommand {
+    display: flex;
+}
+
+#inputColumn_6 label {
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    font-weight: bold;
+}
+
+

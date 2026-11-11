@@ -1,0 +1,89 @@
+﻿.LblMaroon{
+    color:red ;
+}
+
+
+.table-controls {
+    width: 100%;
+    background: #fff;
+    padding: 15px 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+    /* Ensure inputs and dropdowns fill their grid cells */
+    .table-controls .form-control,
+    .table-controls .form-select {
+        width: 100%;
+        height: 42px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        padding: 8px 12px;
+        font-size: 15px;
+    }
+
+/* Button styling (gradient like your image) */
+.btn-add {
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    height: 42px;
+    transition: 0.3s;
+}
+
+    .btn-add:hover {
+        background: linear-gradient(90deg, #5a6dd8, #6b439e);
+        color:white;
+    }
+
+.page-header {
+    background: white;
+    /*padding: 2rem;*/
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.page-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+}
+
+.page-subtitle {
+    color: #718096;
+}
+
+
+.pag_btns tr {
+    background: red !important;
+    color: black;
+}
+
+    .pag_btns tr td {
+        /*background: #567a94 !important;*/
+        background: #7a3d98 !important;
+        color: black;
+        padding: 5px 5px !important;
+        margin-right: 2px;
+        border: none;
+    }
+
+.pag_btns td {
+    padding: 7px !important;
+    background: #c794e0;
+}
+
+.pag_btns tr td span {
+    background: #fff !important;
+    color: black;
+    padding: 5px 10px;
+    margin-right: 2px;
+}
+
+.product-table tbody td {
+    vertical-align: middle;
+}

@@ -1,0 +1,229 @@
+﻿.date-input-container {
+    position: relative;
+    width: 100%;
+}
+
+.datepicker-crm {
+    width: 100%;
+    padding-right: 30px; /* give space for the icon */
+    box-sizing: border-box;
+}
+.calendar-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #630f0a !important; /* bright red */
+    font-size: 18px !important; /* adjust size */
+    width: 18px !important; /* optional for layout */
+    height: 18px !important; /* optional for layout */
+    line-height: 1 !important;
+}
+.calendar-textbox {
+    padding-right: 30px;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+.calendar-icons {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #555;
+    pointer-events: none;
+}
+
+.datetime-dropdown {
+    margin-left: 5px;
+}
+
+.textbox_field_styleDisable {
+    border: 2px #60c9ff solid;
+    padding: 0px;
+    margin: 0px;
+    border-top-right-radius: 5px;
+    text-indent: 3px;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-bottom-right-radius: 5px;
+    background: #e9cfb6 !important;
+    height: 25px;
+    
+    pointer-events:none;
+    
+}
+.textbox_field_style {
+    border: 2px #60c9ff solid;
+    padding: 0px;
+    margin: 0px;
+    border-top-right-radius: 5px;
+    text-indent: 3px;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-bottom-right-radius: 5px;
+    background: #e1f5ff;
+    height: 25px;
+    width: 175px !important;
+}
+
+/*@media only screen and (max-width: 1030px) {
+    td .textbox_field_style {
+        width: 128px !important;
+    }
+}*/
+.ItmWidth300 {
+    width:50%;
+}
+.ItmWidth350 {
+    width: 50%;
+}
+.tdEventRowStyle {
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-left: 2px;
+    width: 40px;
+    margin-right: 2px;
+    height: 20px;
+    padding-bottom: 3px;
+}
+/*.rewindbuttons {
+    background-color: #25a5bb;*/ /* #208c9b; */
+    /*height: 27px;
+    display:block;
+    width: 40px;
+    font-weight: normal;
+    color: white;
+    border: 1px;
+    height: 27px;
+    width: 35px;
+    border-radius: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 10px;
+    padding-top: 10px;
+}*/
+.rewindbuttons {
+    background-color: #25a5bb; /* #208c9b; */
+    height: 27px;
+    display: block;
+    width: 40px;
+    font-weight: normal;
+    color: white;
+    border: 1px;
+    height: 27px;
+    width: 35px;
+    border-radius: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 10px;
+    padding-bottom: 3px;
+    padding-top: 10px;
+}
+.rewindbuttons1 {
+    background-color: #09798c; /* #208c9b; */
+    height: 22px !important;
+    display: block;
+    width: 40px;
+    font-weight: normal;
+    color: white;
+    border: 1px;
+    height: 27px;
+    width: 35px;
+    border-radius: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 10px;
+    padding-bottom: 3px;
+    padding-top: 8px;
+}
+    .rewindbuttons1:hover {
+        background-color: #09798c; /* #208c9b; */
+        height: 22px !important;
+        display: block;
+        width: 40px;
+        font-weight: normal;
+        color: white;
+        border: 1px;
+        height: 27px;
+        width: 35px;
+        border-radius: 3px;
+        padding-left: 4px;
+        padding-right: 4px;
+        font-size: 10px;
+        padding-bottom: 3px;
+        padding-top: 8px;
+    }
+
+    .text_down i {
+        /*position: absolute;*/
+        content: " \f061";
+        top: 1px;
+        /* right: 11px; */
+        height: 29px;
+        width: 28px;
+        /* background: #c4c9ca;*/
+        color: #000;
+        font-size: 24px;
+        text-align: center;
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+.imgcalender-cons {
+    font-size: 24px !important;
+    line-height: 11px !important;
+    text-indent: 2px !important;
+    color: #77380a !important;
+}
+.TxtBold {
+    font-weight:bold !important;
+}
+
+.GridCol_Width {
+    width:150px !important;
+}
+.GridCol_Width_200 {
+    width: 200px !important;
+}
+.hrstyle {
+    height: 1px;
+    border-width: 0;
+    color: gray;
+    background-color: #c3c3c3
+}
+.aServices {
+    color: #6b00ff !important;
+    background: #9bacc4;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.txtremarkswidth {
+    width: 0px;
+}
+.txtMRPWidth {
+    width: 0px;
+}
+@media only screen and (min-width: 700px) and (max-width: 800px) {
+    .txtremarkswidth {
+        width: 226px !important;
+    }
+    .txtMRPWidth {
+        width: 226px !important;
+    }
+}
+/*fffgf*/
+@media only screen and (min-width: 768px) {
+    .txtremarkswidth {
+        width: 194px !important;
+    }
+    .txtMRPWidth {
+        width: 94px !important;
+    }
+}
